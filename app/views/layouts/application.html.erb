@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mockup</title>
+    <title>Your Logo</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,21 @@
   </head>
 
   <body>
+    <nav class='clearfix'>
+      <a href="#" id="logo">YOUR LOGO</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
     <%= yield %>
+
+    <footer>
+      <p>
+        <a href="#">Try now</a> for 14 days. No credit card required. Header image courtesy of <a href="https://unsplash.it/">Unsplash</a>.
+      </p>
+    </footer>
   </body>
 </html>

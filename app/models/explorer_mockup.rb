@@ -1,0 +1,2 @@
+class ExplorerMockup < ApplicationRecord
+end
